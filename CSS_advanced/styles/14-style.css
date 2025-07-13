@@ -28,10 +28,12 @@
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
 }
+/* CSS Advanced Stylesheet */
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }
+/* Reset */
 body {
 	color: var(--text-color);
 	font-family: var(--font-family-base);
@@ -39,6 +41,7 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
+/* Typography */
 h1,
 h2,
 h3,
@@ -48,28 +51,36 @@ h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
+/* Headings */
 a:link {
 	color: var(--text-color);
 	text-decoration: none;
 }
+/* Links */
 a:visited {
 	font-style: italic;
 }
+/* Visited Links */
 a:hover {
 	text-decoration: underline;
 }
+/* Hover State for Links */
 a:active {
 	background-color: var(--color-light-grey);
 }
+/* Active State for Links */
 .visually-hidden {
 	display: none;
 }
+/* Visually Hidden Elements */
 .card-category {
 	color: var(--color-primary);
 }
+/* Card Category */
 .section-header {
 	text-align: var(--section-header-align);
 }
+/* Section Header */
 .section-title {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-xx-large);
@@ -77,6 +88,7 @@ a:active {
 	margin: var(--section-title-margin);
 	color: var(--section-title-color);
 }
+/* Section Title */
 .section-tagline {
 	color: var(--color-primary);
 	font-family: var(--font-family-title);
